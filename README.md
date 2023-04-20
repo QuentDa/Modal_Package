@@ -1,6 +1,6 @@
 # README
 
-This is a React component that creates a button which opens a modal when clicked. There are two options for implementing this functionality.
+This is a React component that opens a modal when clicked. There are two options for implementing this functionality.
 
 ## Option 1: Use the Hook to Retrieve Everything at Once
 
@@ -56,3 +56,17 @@ To use this option, follow these steps:
     ```js
     <Modal show={showModal} onClose={handleCloseModal}>
     ```
+
+# Customize your modal
+The modal takes 3 props, which are
+    ```
+    show={show}
+    ```
+    ```
+    onClose={closeModal}
+    ```
+    ```
+    title="Title"
+    ```
+
+It also contains a children that allows you to directly write inside of it.
