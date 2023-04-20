@@ -2,6 +2,13 @@
 
 This is a React component that opens a modal when clicked. There are two options for implementing this functionality.
 
+# Installation
+```
+npm i @eiken/modal-react
+```
+
+# How to use
+
 ## Option 1: Use the Hook to Retrieve Everything at Once
 
 The first option is to use the `useModal` hook to manage the state and functionality of the modal. This hook can be imported from a separate file and used to create a modal with a custom button.
