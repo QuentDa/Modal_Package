@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import './Modal.css'
 
-export default function Modal({ show, onClose, title, children }) {
+export function Modal({ show, onClose, title, children }) {
     const modalRef = useRef(null);
 
     const handleOutsideClick = (event) => {
